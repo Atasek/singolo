@@ -6,7 +6,10 @@
 .back {
   position: relative;
   background-color: #2d303a;
-  height: 90px;  
+  height: 96px;  
+  border-bottom-style: solid;
+  border-bottom-width: 6px; /* Толщина линии внизу */
+  border-bottom-color: #323746; 
 
 }
 
@@ -28,12 +31,6 @@
  color: #f06c64;
 }
 
-.back_line {
-  position: relative;
-  top: 70px;
-  background-color: #323746;
-  height: 6px;  
-}
 
 @font-face {
 	font-family: 'Lato Bold';
@@ -68,7 +65,8 @@ li {
 
 li a {
   display: block;
-  padding: 0px 15px;
+  margin-right: 15px;
+ 
   color: #ffffff;
   font-family: 'Lato Bold', sans-serif;
   text-decoration: none;
@@ -86,7 +84,7 @@ a.home {
  font-family: 'Lato Bold', sans-serif;
 }
 
-slider {
+.slider {
   background-color: #f06c64;
   height: 600px;
 }
