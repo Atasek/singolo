@@ -85,6 +85,11 @@ a.home {
 }
 
 .slider {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f06c64;
   height: 600px;
 }
@@ -96,10 +101,10 @@ margin-top: 53px;
 }
 .slider_image2 {
   display: inline-block;
-  margin-top: 174px;
+  margin-top: 40px;
   vertical-align: top;
   padding: 0px;
-  margin-left: 70px;
+  margin-right: 110px;
 
 }
 
