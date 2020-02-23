@@ -34,7 +34,9 @@
 
 @font-face {
 	font-family: 'Lato Bold';
-	src: url('assets/Lato-Bold.ttf');
+  src: url('assets/Lato-Bold.ttf');
+  font-family: 'Lato Black';
+  src: url('assets/Lato-Black.ttf');
 }
 
  .menu_serv {
@@ -92,6 +94,10 @@ a.home {
   align-items: center;
   background-color: #f06c64;
   height: 600px;
+  border-bottom-style: solid;
+  border-bottom-width: 6px; /* Толщина линии внизу */
+  border-bottom-color: #ea676b; 
+
 }
 
 .slider_image1 {
@@ -108,4 +114,20 @@ margin-top: 53px;
 
 }
 
+.our_services {
+  position: relative;
+  background-color: #f2f2f2;
+  height: 600px;  
+}
+h1 {
+  
+  font-family: 'Lato Bold', sans-serif;
+  color: #666d89;
+  margin-left: 40px;
+  margin-top: 67px;
+  font-size: 30px;
+
+  font-weight: 900;
+  text-align: left;
+}
 
