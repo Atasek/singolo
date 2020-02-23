@@ -15,7 +15,7 @@
 
 .logo  {
   position: relative;
-  
+  display: inline-block;
   top: 35px;
   left: 40px;
   font-family: 'Lato Bold', sans-serif;
@@ -76,7 +76,7 @@ li a {
 .nav-inline-block {
   display: inline;
   float:right;
-  
+  margin-top: 45px;
 }
 
 a.home {
@@ -87,6 +87,20 @@ a.home {
 .slider {
   background-color: #f06c64;
   height: 600px;
+}
+
+.slider_image1 {
+display: inline-block;
+margin-left: 112px;
+margin-top: 53px;
+}
+.slider_image2 {
+  display: inline-block;
+  margin-top: 174px;
+  vertical-align: top;
+  padding: 0px;
+  margin-left: 70px;
+
 }
 
 
